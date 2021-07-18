@@ -1,0 +1,50 @@
+{
+  "name": "dmclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "create": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Topalidis",
+  "license": "ISC",
+  "dependencies": {
+    "@react-pdf/renderer": "^1.6.11",
+    "axios": "^0.21.1",
+    "downloadjs": "^1.4.7",
+    "fuse.js": "^6.4.6",
+    "js-cookie": "^2.2.1",
+    "less": "^3.12.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-google-places-autocomplete": "^3.0.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-table": "^7.7.0",
+    "reactstrap": "^8.9.0",
+    "redux": "^4.0.5",
+    "rsuite": "^4.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "less-loader": "^7.0.2",
+    "redux-devtools": "^3.7.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
